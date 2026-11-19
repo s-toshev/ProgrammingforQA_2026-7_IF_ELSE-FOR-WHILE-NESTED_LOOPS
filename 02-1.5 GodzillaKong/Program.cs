@@ -25,7 +25,7 @@
                 Console.WriteLine("Not enough money!");
                 Console.WriteLine($"Wingard needs {missingMoney:F2} leva more.");
             }
-            else if (clothesTotalPrice + decorPrice < movieBudget)
+            else if (clothesTotalPrice + decorPrice <= movieBudget)
             {
                 double remainingMoney = movieBudget - (clothesTotalPrice + decorPrice);
                 Console.WriteLine("Action!");
