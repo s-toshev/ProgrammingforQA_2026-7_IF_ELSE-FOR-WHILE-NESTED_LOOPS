@@ -24,8 +24,9 @@
                     price = 16; 
                     break;
 
-                Console.WriteLine(price);
+              
             }
+            Console.WriteLine(price);
         }
     }
 }
